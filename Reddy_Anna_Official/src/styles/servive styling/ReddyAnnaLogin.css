@@ -1,0 +1,140 @@
+.login_container {
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #000;
+  }
+  
+  .login_card {
+    background-color: #edc952;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 370px;
+    max-height: 350px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .login_card .login_title {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 10px;
+    color: #000;
+  }
+  
+  .login_card .login_paragraph {
+    font-size: 1.1em;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .login_card ul {
+    list-style-type: disc;
+    margin: 10px 0;
+    padding-left: 20px;
+    text-align: left;
+  }
+  
+  .login_card li {
+    font-size: 1em;
+    margin-bottom: 5px;
+    color: #000;
+  }
+  
+  .login_card .login_btn {
+    max-width: 300px;
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login_card .login_btn:hover {
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .features-card {
+    background-color: #000;
+    color: #f1d475;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+  }
+  
+  .features-card .login_heading {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #ffd700;
+  }
+  .features-card .login_ftr_paragraph
+  {
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: left;
+
+  }
+  
+  
+  .features-card ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .features-card li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    padding-left: 5px;
+  }
+  .features-card li strong {
+    color: #f1d475;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    line-height: 1.5;
+  }
+  
+  .features-card .whatsapp-button {
+    background-color: transparent;
+    border: 2px solid #f1d475;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #f1d475;
+  }
+  
+  .features-card .whatsapp-button:hover {
+    background-color: #f1d475;
+    color: #000;
+    transition: background-color 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .login_container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .login_card {
+      max-width: 90%;
+    }
+  }

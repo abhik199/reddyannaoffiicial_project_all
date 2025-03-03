@@ -1,0 +1,186 @@
+/* General Styles */
+
+.blog-container {
+  background-color: #fff;
+}
+
+.blog-menu {
+  max-width: 1000px;
+  margin: auto;
+  background: #fff;
+  padding: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.blog-menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog-menu ul li {
+  margin: 0;
+}
+
+.blog-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-family: sans-serif;
+  padding: 10px;
+}
+
+.blogmenu-li:hover {
+  color: #007bff;
+}
+
+/* Match Card Container */
+.blog-match-card {
+  display: flex;
+  flex-direction: row;
+  max-width: 950px;
+  background: #fff;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  gap: 15px;
+}
+
+/* Left Image Section */
+.match-card-image {
+  position: relative;
+  width: 50%;
+}
+
+.blog-match-card-image img {
+  width: 350px;
+  height: 350px;
+  border-radius: 8px;
+}
+
+.date-tag,
+.time-tag {
+  position: absolute;
+  background: white;
+  color: black;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.date-tag {
+  top: 10px;
+  left: 10px;
+}
+
+.time-tag {
+  top: 10px;
+  right: 10px;
+}
+
+/* Right Content Section */
+.blog-match-card-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-card-heading {
+  font-size: 2.2rem;
+  color: #333;
+}
+
+.blog-card-paragraph {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.blog-match-card-footer {
+  font-size: 1.1rem;
+  color: gray;
+  margin-top: 10px;
+}
+
+/* Dropdown for Category Filter */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 150px;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu li button {
+  width: 100%;
+  padding: 8px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.dropdown-menu li button:hover {
+  background: #f4f4f4;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .blog-menu ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .blog-match-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-match-card-image,
+  .blog-match-card-content {
+    width: 100%;
+  }
+
+  .blog-match-card-content h2 {
+    font-size: 16px;
+  }
+
+  .blog-match-card-content p {
+    font-size: 13px;
+  }
+}
+
+/* Blog User Info Styles */
+.blog-user-info {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  color: #666;
+  margin-top: 10px;
+  /* Add some space above user info */
+}
+
+.blog-user-name {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.blog-time-ago {
+  margin-right: 5px;
+}

@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9dd8c0d7.css",
+    "main.js": "/static/js/main.28db98b9.js",
+    "static/js/488.98a50710.chunk.js": "/static/js/488.98a50710.chunk.js",
+    "static/media/R.jpeg": "/static/media/R.85f3dbb8450d9f8a95c4.jpeg",
+    "static/media/refer.png": "/static/media/refer.ff670b048a3b48b97f8b.png",
+    "static/media/reddy-anna-apk.png": "/static/media/reddy-anna-apk.08f8e830bdf61f7e32a7.png",
+    "static/media/reddy-anna-logo.png": "/static/media/reddy-anna-logo.c7acd97e399f29b76520.png",
+    "static/media/bc0-150x150.png": "/static/media/bc0-150x150.c8d5a1346934939e546b.png",
+    "static/media/homeImg.png": "/static/media/homeImg.248724a9ebf5d1e3bbfb.png",
+    "static/media/s0.png": "/static/media/s0.34e43566fd197b74ca2c.png",
+    "static/media/UPI-1-1.webp": "/static/media/UPI-1-1.ecd8620d8166235fa56e.webp",
+    "static/media/Gpay-1-1.webp": "/static/media/Gpay-1-1.1b82e6cc52691fdac581.webp",
+    "static/media/Phone-1.webp": "/static/media/Phone-1.d07560403ad5c5b7e10d.webp",
+    "static/media/Paytm-1.webp": "/static/media/Paytm-1.3117e1c9ff5a9c40d6ea.webp",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.9dd8c0d7.css.map": "/static/css/main.9dd8c0d7.css.map",
+    "main.28db98b9.js.map": "/static/js/main.28db98b9.js.map",
+    "488.98a50710.chunk.js.map": "/static/js/488.98a50710.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd8c0d7.css",
+    "static/js/main.28db98b9.js"
+  ]
+}

@@ -1,0 +1,78 @@
+/* BlogForm.css */
+
+.blog-form-container {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .blog-form h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .blog-form input,
+  .blog-form textarea,
+  .blog-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .blog-form textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  .blog-form button {
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .blog-form button:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .blog-form-container {
+      width: 90%;
+      padding: 15px;
+    }
+    .blog-form input,
+    .blog-form textarea {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .blog-form-container {
+      width: 100%;
+      padding: 10px;
+    }
+    .blog-form h2 {
+      font-size: 18px;
+    }
+    .blog-form input,
+    .blog-form textarea {
+      font-size: 12px;
+    }
+    .blog-form button {
+      font-size: 14px;
+    }
+  }
+  

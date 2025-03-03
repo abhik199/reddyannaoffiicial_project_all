@@ -1,0 +1,86 @@
+/* Base styles */
+.privacy-container {
+    background-color: #000;
+    color: #e1b12c;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .privacy-title {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 10px;
+    padding-top: 20px;
+  }
+  
+  .privacy-updated {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffcc00;
+  }
+  
+  .privacy-intro, .privacy-text {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  .privacy-section {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .privacy-list {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .privacy-list li {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  .privacy-list li strong, .privacy-text strong {
+    color: #fff;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .privacy-container {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .privacy-title {
+      font-size: 28px;
+    }
+  
+    .privacy-section {
+      font-size: 18px;
+    }
+  
+    .privacy-list li, .privacy-text {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .privacy-title {
+      font-size: 24px;
+    }
+  
+    .privacy-section {
+      font-size: 16px;
+    }
+  
+    .privacy-list li, .privacy-text {
+      font-size: 12px;
+    }
+  }
+  

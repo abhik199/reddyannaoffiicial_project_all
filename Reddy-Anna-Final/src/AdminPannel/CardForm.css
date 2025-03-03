@@ -1,0 +1,100 @@
+.card-form {
+  margin: auto;
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  width: 400px;
+  max-width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-form input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.card-form button {
+  background: gold;
+  color: black;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card-form button:hover {
+  background: orange;
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+  .card-form {
+    width: 100%;
+  }
+}
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.custom-card {
+  background: #111;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s;
+}
+
+.custom-card:hover {
+  transform: scale(1.05);
+}
+
+.card-img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+button {
+  background: gold;
+  color: black;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: orange;
+}
+
+/* 📌 Responsive Design */
+@media (max-width: 768px) {
+  .card-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .custom-card {
+    width: 90%;
+  }
+
+  button {
+    width: 100%;
+  }
+}

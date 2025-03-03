@@ -1,0 +1,114 @@
+.services-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .services-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffcc00; /* Gold color */
+    margin-bottom: 20px;
+    text-align: left;
+    padding-top: 50px;
+  }
+  
+  .services-description {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+  }
+  
+  .highlight {
+    color: #ffcc00; /* Gold highlight */
+    font-weight: bold;
+  }
+  
+  /* Media Query */
+  @media (max-width: 600px) {
+    .services-title {
+      font-size: 2rem;
+    }
+  
+    .services-description {
+      font-size: 1rem;
+    }
+  
+    .services-container {
+      padding: 10px;
+    }
+  }
+  
+ 
+  
+  .service_cart_container {
+    text-align: center;
+    padding: 20px;
+    background-image: url(../image/back.avif);
+    background-size: cover;
+    margin-bottom: 10px;
+  }
+  .service_cart_content
+  {
+    max-width: 1000px;
+    margin: auto;
+  }
+ 
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service_card {
+    background-color: #f8c968;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.3s;
+  }
+  
+  .service_card:hover {
+    transform: scale(1.05);
+  }
+  
+  .service_card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .service-card-title {
+    padding: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  
+  /* Media query for tablets (max-width: 768px) */
+  @media (max-width: 768px) {
+    .service_card {
+      width: 280px;
+    }
+  }
+  
+  /* Media query for mobile devices (max-width: 480px) */
+  @media (max-width: 480px) {
+    .service_card {
+      width: 100%;
+    }
+  
+    .services {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-card-title {
+      font-size: 1em;
+    }
+  }
+  

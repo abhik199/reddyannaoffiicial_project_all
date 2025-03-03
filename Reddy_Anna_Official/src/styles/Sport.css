@@ -1,0 +1,120 @@
+
+.sport_container {
+    max-width: 1000px;
+    margin: auto;
+    display: table-row;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+    padding: 20px;
+    padding-top: 20px;
+    
+  }
+  
+  .sport_page_cart {
+    max-width: 900px;
+    margin: auto;
+    background: #f4d35e;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .sport_h2 {
+    font-size: 24px;
+    color: #000;
+    text-align: left;
+  }
+  
+  .sport-p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  button {
+    background: none;
+    border: 2px solid black;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .sport_container {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    .sport_page_cart {
+      width: 100%;
+    }
+  }
+  
+.sport_content_container {
+  text-align: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.Sport_content_para {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.contact-button {
+  background-color: transparent;
+  border: 2px solid #f4d35e;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .Sport_content_para {
+    font-size: 1rem;
+  }
+
+  .contact-button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .Sport_content_para {
+    font-size: 0.9rem;
+  }
+
+  .contact-button {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+}

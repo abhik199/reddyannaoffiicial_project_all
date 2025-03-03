@@ -1,0 +1,47 @@
+.terms-container {
+    background-color: black;
+    color: gold;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .terms-title {
+    text-align: left;
+    font-size: 2rem;
+    padding-top: 20px;
+  }
+ 
+  .terms-paragraph {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 600px) {
+    .terms-container {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .updated-date {
+      font-size: 1rem;
+    }
+  }
+  
