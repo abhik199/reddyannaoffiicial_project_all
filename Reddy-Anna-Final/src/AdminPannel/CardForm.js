@@ -109,7 +109,7 @@ const CardForm = ({ selectedCard, clearSelection }) => {
 
       <div className="card-list">
         {cards.map((card) => (
-          <div key={card._id} className="custom-card">
+          <div key={card.id} className="custom-card">
             {" "}
             {/* Use _id for the key */}
             <img
@@ -119,7 +119,7 @@ const CardForm = ({ selectedCard, clearSelection }) => {
             />
             <h3>{card.title}</h3>
             <p>{card.description}</p>
-            <button onClick={() => handleDelete(card._id)}>Delete</button>
+            <button onClick={() => handleDelete(card.id)}>Delete</button>
           </div>
         ))}
       </div>
