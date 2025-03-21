@@ -86,14 +86,14 @@ const SliderForm = () => {
 
       <ul className="slider-list">
         {images.map((image) => (
-          <li key={image._id} className="slider-item">
+          <li key={image.id} className="slider-item">
             <img
               src={`${process.env.REACT_APP_BASE_URL}/slider/${image.imageUrl}`}
               alt="Slider"
               className="slider-image"
             />
             <button
-              onClick={() => deleteImage(image._id)}
+              onClick={() => deleteImage(image.id)}
               className="slider-button delete-button"
             >
               Delete
